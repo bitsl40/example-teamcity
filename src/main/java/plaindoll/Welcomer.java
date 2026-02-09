@@ -19,9 +19,5 @@ public class Welcomer{
     return "Hello, hunter! ";
     }
 	
-    public void testGetHunterReply() {
-    Welcomer welcomer = new Welcomer();
-    String reply = welcomer.getHunterReply();
-    assertTrue(reply.contains("hunter"));
-}
+    
 }
