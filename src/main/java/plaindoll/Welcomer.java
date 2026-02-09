@@ -15,4 +15,13 @@ public class Welcomer{
 	public String saySome(){
 		return "something in the way";
 	}
+	public String getHunterReply() {
+    return "Hello, hunter! ";
+    }
+	@Test
+    public void testGetHunterReply() {
+    Welcomer welcomer = new Welcomer();
+    String reply = welcomer.getHunterReply();
+    assertTrue(reply.contains("hunter"));
+}
 }
