@@ -38,3 +38,4 @@ public class WelcomerTest {
     String reply = welcomer.getHunterReply();
     assertTrue(reply.contains("hunter"));
 }
+}
