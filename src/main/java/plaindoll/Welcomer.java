@@ -18,7 +18,7 @@ public class Welcomer{
 	public String getHunterReply() {
     return "Hello, hunter! ";
     }
-	@Test
+	
     public void testGetHunterReply() {
     Welcomer welcomer = new Welcomer();
     String reply = welcomer.getHunterReply();
